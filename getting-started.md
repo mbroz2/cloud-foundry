@@ -17,7 +17,10 @@ subcollection: cloud-foundry
 {:screen: .screen}
 {:tip: .tip}
 {:note: .note}
+{:important: .important}
 
+The IBM Cloud Foundry Enterprise Environment single-tenant cloud product is deprecated and will be withdrawn from the market. [Click here for more information.](/docs/cloud-foundry?topic=cloud-foundry-what-s-new-in-ibm-cloud-foundry-enterprise-environment#deprecation)
+{: important}
 
 # Getting started with {{site.data.keyword.cfee_full_notm}}
 {: #getting-started}
