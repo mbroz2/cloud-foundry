@@ -55,7 +55,7 @@ Cloud Foundry Enterprise Environment
 
         {: .topicgroup}
         ASP.NET
-            dotnet-getting-started.md
+            getting-started-dotnet.md
             dotnet-index.md
             dotnet-disablingNuGet.md
             dotnet-usingNuGet.md
@@ -69,7 +69,7 @@ Cloud Foundry Enterprise Environment
 
         {: .topicgroup}
         Liberty for Java
-            liberty-getting-started.md
+            getting-started-liberty.md
             liberty-index.md
             liberty-secureWebApp.md
             liberty-configureSSLCerts.md
@@ -80,9 +80,9 @@ Cloud Foundry Enterprise Environment
             liberty-installFeatures.md
             liberty-usingMonthlyRuntime.md
             liberty-usingBetaFeatures.md
-            liberty-monitoring/jconsole.md
-            liberty-monitoring/dynatrace.md
-            liberty-monitoring/newRelic.md
+            liberty-jconsole.md
+            liberty-dynatrace.md
+            liberty-newRelic.md
             liberty-offlineMode.md
             liberty-optionsForPushing.md
             liberty-memoryLimits.md
@@ -93,7 +93,19 @@ Cloud Foundry Enterprise Environment
         getting-started-php.md
         getting-started-python.md
         getting-started-ruby.md
-        getting-started-node.md
+
+        {: .topicgroup}
+        SDK for Node.js
+            getting-started-node.md
+            nodejs-index.md
+            nodejs-startup.md
+            nodejs-runningLocally.md
+            nodejs-enforceHTTPS.md
+            nodejs-hooks.md
+            nodejs-nodejsBuildpacks.md
+            nodejs-configurationOptions.md
+            nodejs-availableVersions.md
+        
         getting-started-swift.md
         getting-started-tomcat.md
         workingWithProxy.md
@@ -134,4 +146,5 @@ Cloud Foundry Enterprise Environment
     Buildpack release notes
         dotnet-updates.md
         liberty-updates.md
+        nodejs-updates.md
     {: .navgroup-end}
