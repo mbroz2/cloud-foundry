@@ -53,20 +53,43 @@ Cloud Foundry Enterprise Environment
         buildpacks.md
         byob.md
 
-            {: .topicgroup}
-            ASP.NET
-                dotnet-getting-started.md
-                dotnet-index.md
-                dotnet-disablingNuGet.md
-                dotnet-usingNuGet.md
-                dotnet-compile_pub_deploy.md
-                dotnet-enforceHTTPS.md
-                dotnet-buildOutputfiles.md
-                dotnet-usingCustomLib.md
-                dotnet-runtimeVersions.md
+        {: .topicgroup}
+        ASP.NET
+            dotnet-getting-started.md
+            dotnet-index.md
+            dotnet-disablingNuGet.md
+            dotnet-usingNuGet.md
+            dotnet-compile_pub_deploy.md
+            dotnet-enforceHTTPS.md
+            dotnet-buildOutputfiles.md
+            dotnet-usingCustomLib.md
+            dotnet-runtimeVersions.md
 
         getting-started-go.md
-        getting-started-liberty.md
+
+        {: .topicgroup}
+        Liberty for Java
+            liberty-getting-started.md
+            liberty-index.md
+            liberty-secureWebApp.md
+            liberty-configureSSLCerts.md
+            liberty-loggingAndTracing.md
+            liberty-autoConfig.md
+            liberty-customizingJRE.md
+            liberty-using_own_jre.md
+            liberty-installFeatures.md
+            liberty-usingMonthlyRuntime.md
+            liberty-usingBetaFeatures.md
+            liberty-monitoring/jconsole.md
+            liberty-monitoring/dynatrace.md
+            liberty-monitoring/newRelic.md
+            liberty-offlineMode.md
+            liberty-optionsForPushing.md
+            liberty-memoryLimits.md
+            liberty-libertyFeatures.md
+            liberty-environmentVariables.md
+            liberty-buildpackDefaults.md
+
         getting-started-php.md
         getting-started-python.md
         getting-started-ruby.md
@@ -110,4 +133,5 @@ Cloud Foundry Enterprise Environment
     {: .topicgroup}
     Buildpack release notes
         dotnet-updates.md
+        liberty-updates.md
     {: .navgroup-end}
