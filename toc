@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="cloud-foundry" category="compute" audience="runtime" href="/docs/cloud-foundry/getting-started.html" path="cloud-foundry"}
+{: .toc subcollection="cloud-foundry" category="compute" audience="runtime" href="/docs/cloud-foundry?topic=cloud-foundry-getting-started" path="cloud-foundry"}
 Cloud Foundry Enterprise Environment
 
     {: .navgroup id="learn"}
@@ -52,7 +52,19 @@ Cloud Foundry Enterprise Environment
     Developing with buildpacks
         buildpacks.md
         byob.md
-        getting-started-dotnet.md
+
+            {: .topicgroup}
+            ASP.NET
+                dotnet-getting-started.md
+                dotnet-index.md
+                dotnet-disablingNuGet.md
+                dotnet-usingNuGet.md
+                dotnet-compile_pub_deploy.md
+                dotnet-enforceHTTPS.md
+                dotnet-buildOutputfiles.md
+                dotnet-usingCustomLib.md
+                dotnet-runtimeVersions.md
+
         getting-started-go.md
         getting-started-liberty.md
         getting-started-php.md
@@ -94,4 +106,8 @@ Cloud Foundry Enterprise Environment
 
     buildpackSupport.md
     known-issues.md
+
+    {: .topicgroup}
+    Buildpack release notes
+        dotnet-updates.md
     {: .navgroup-end}

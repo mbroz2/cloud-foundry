@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-11-13"
+  years: 2017, 2020
+lastupdated: "2020-05-18"
 subcollection: "Dotnet"
 
 ---
@@ -22,16 +22,16 @@ subcollection: "Dotnet"
 Congratulations, you deployed a Hello World sample application on {{site.data.keyword.Bluemix}}!  To get started, follow this step-by-step guide. Or, [download the sample code](https://github.com/IBM-Cloud/get-started-aspnet-core) and explore on your own.
 {: hide-in-docs}
 
-By following this getting started tutorial, you'll set up a development environment, deploy an app locally and on {{site.data.keyword.Bluemix}}, and integrate an {{site.data.keyword.Bluemix}} database service in your app.
+By following this getting started tutorial, you'll set up a development environment, deploy an app locally and on {{site.data.keyword.Bluemix}}, and integrate an {{site.data.keyword.Bluemix}} database service in your app. The ASP.NET core is complied into a .dll package. You can deploy the application with the code or with the precompiled file (.DLL) of your applicattion.
 
 ## Before you begin
 {: #prereqs}
 
 You'll need the following:
 * [{{site.data.keyword.Bluemix_notm}} account](https://cloud.ibm.com/registration)
-* [{{site.data.keyword.Bluemix_notm}} CLI](/docs/cli/reference/ibmcloud/download_cli.html)
+* [{{site.data.keyword.Bluemix_notm}} CLI](/docs/cli?topic=cli-getting-started)
 * [Git](https://git-scm.com/downloads){: external}
-* Install .NET Core SDK 2.2.401 from the [.NET Core downloads website](https://www.microsoft.com/net/download/core){: external}.
+* Install .NET Core SDK 3.1 from the [.NET Core downloads website](https://www.microsoft.com/net/download/core){: external}.
 
 ## Step 1: Clone the sample app
 {: #clone}
@@ -190,5 +190,5 @@ Remember, if you don't need your app live, stop it so you don't incur any unexpe
 ## Next Steps
 
 * [Tutorials](/docs/tutorials/index.html)
-* [Samples ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm-cloud.github.io){: new_window}
-* [Architecture Center ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/garage/category/architectures){: new_window}
+* [Samples](https://ibm-cloud.github.io){: external}
+* [Architecture Center](https://www.ibm.com/cloud/garage/category/architectures){: external}
