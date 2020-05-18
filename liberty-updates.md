@@ -10,7 +10,7 @@ lastupdated: "2020-04-08"
 {:codeblock: .codeblock}
 
 # Latest updates to the Liberty buildpack
-{: #latest_updates}
+{: #liberty-latest_updates}
 
 ## A list of the latest updates in the Liberty buildpack.
 

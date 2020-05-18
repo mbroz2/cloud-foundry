@@ -13,7 +13,7 @@ subcollection: cloud-foundry
 {:note: .note}
 
 # Latest updates to the SDK for Node.js buildpack
-{: #latest_updates}
+{: #nodejs-latest_updates}
 
 A list of the latest updates in the sdk-for-nodejs buildpack.
 

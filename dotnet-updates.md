@@ -10,7 +10,7 @@ subcollection: cloud-foundry
 {:codeblock: .codeblock}
 
 # Latest updates to the ASP.NET Core buildpack
-{: #latest_updates}
+{: #dotnet-latest_updates}
 
 A list of the latest updates in the ASP.NET Core buildpack.
 
