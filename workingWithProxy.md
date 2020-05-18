@@ -3,7 +3,7 @@
 copyright:
   years: 2016, 2019
 lastupdated: "2018-08-26"
-subcollection: "cloud-foundry"
+subcollection: cloud-foundry
 
 ---
 

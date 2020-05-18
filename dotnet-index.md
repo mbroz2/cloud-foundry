@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2018
 lastupdated: "2017-10-25"
-subcollection: "Dotnet"
+subcollection: cloud-foundry
 ---
 
 {:shortdesc: .shortdesc}

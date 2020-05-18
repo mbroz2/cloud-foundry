@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2019
 lastupdated: "2019-10-08"
-subcollection: "liberty"
+subcollection: cloud-foundry
 
 ---
 
