@@ -50,12 +50,12 @@ IBM offers the Cloud Foundry PaaS in several hosting models, allowing you to cus
 Run your cloud-native app using Cloud Foundry for simple stand-up and powerful scaling and traffic management. Consumption is by hour and changes dynamically based on usage. 
 
 ### Enterprise Environment
-{: #ibmcf-public}
+{: #ibmcf-ee}
 
 Allows you to create and manage isolated environments for hosting Cloud Foundry applications exclusively for your enterprise. It provides self-service deployment and elastic consumption,  rapid provisioning, complete access to Cloud Foundry admin operations, and is fully integrated with the vast catalog of {{site.data.keyword.cloud}} services, enabling you to building complex applications with a wide range of services.
 
 ### Private
-{: #ibmcf-public}
+{: #ibmcf-private}
 
 An on-premises Cloud Foundry platform that runs in your data-center on your infrastructure, giving the highest level of isolation security for your application hosting.
 

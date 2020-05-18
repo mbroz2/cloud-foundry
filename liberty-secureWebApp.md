@@ -41,7 +41,7 @@ mvn install liberty:run-server
 View the app at http://localhost:9080/GetStartedSecureJava/
 
 ## Enforce HTTPS on all pages in your application
-{: #enforce_https}
+{: #liberty-enforce_https}
 
 To enforce HTTPS instead of HTTP on all pages in your application, the following changes need to be made.
 

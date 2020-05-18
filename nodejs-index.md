@@ -27,12 +27,12 @@ var port = (process.env.PORT || 3000);
 {: codeblock}
 
 ## Starter application
-{: #starter_application}
+{: #nodejs-starter_application}
 
 {{site.data.keyword.Bluemix_notm}} provides a Node.js starter applications.  The Node.js starter application is a simple Node.js app that provides a template that you can use for your app. You can experiment with the starter app, and make and push changes to the {{site.data.keyword.Bluemix_notm}} environment.
 
 ## App Management (deprecated)
-{: #app_management}
+{: #nodejs-app_management}
 
 **Deprecation Note**:  As of version 4.0, the SDK for Node.js buildpack no longer supports App Management.    
 

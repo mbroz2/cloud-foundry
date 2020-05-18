@@ -12,7 +12,7 @@ subcollection: cloud-foundry
 {:codeblock: .codeblock}
 
 # Enforce HTTPS on all pages in your application
-{: #enforce_https}
+{: #nodejs-enforce_https}
 
 When you run your application in {{site.data.keyword.Bluemix}} with the express framework, the following changes need to be made to enforce HTTPS instead of HTTP on all pages in your application.
 

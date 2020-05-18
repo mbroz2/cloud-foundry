@@ -62,7 +62,7 @@ This may change your `package.json` and add `npm-shrinkwrap.json` in your root d
 Whenever you make a change to dependencies in the `package.json` file , rerun the `npm dedupe` and `shrinkwrap` commands.
 
 ## Working with a proxy
-{: #working_with_proxy}
+{: #nodejs-working_with_proxy}
 
 In some environments such as [{{site.data.keyword.Bluemix_dedicated_notm}}](/docs/dedicated/index.html#dedicated) and
 [{{site.data.keyword.Bluemix_local_notm}}](/docs/local/index.html#local), a proxy can be configured. See

@@ -25,7 +25,7 @@ Congratulations, you deployed a Hello World sample application on {{site.data.ke
 By following this getting started tutorial, you'll set up a development environment, deploy an app locally and on {{site.data.keyword.Bluemix}}, and integrate an {{site.data.keyword.Bluemix}} database service in your app. The ASP.NET core is complied into a .dll package. You can deploy the application with the code or with the precompiled file (.DLL) of your applicattion.
 
 ## Before you begin
-{: #prereqs}
+{: #prereqs-dotnet}
 
 You'll need the following:
 * [{{site.data.keyword.Bluemix_notm}} account](https://cloud.ibm.com/registration)
@@ -68,7 +68,7 @@ dotnet run
 1. View your app at: http://localhost:5000/.
 
 ## Step 3: Prepare the app for deployment
-{: #prepare}
+{: #prepare-dotnet}
 
 To deploy to {{site.data.keyword.Bluemix_notm}}, it can be helpful to set up a manifest.yml file. The manifest.yml includes basic information about your app, such as the name, how much memory to allocate for each instance and the route. We've provided a sample manifest.yml file in the `get-started-dotnet` directory.
 

@@ -34,7 +34,7 @@ The buildpack provides two versions of the Liberty runtime:
   * Typically updated every 4 weeks.
 
 ## Liberty features
-{: #liberty_features}
+{: #default_liberty_features}
 
 When you deploy WAR or EAR files, the buildpack provides a configuration for the application with a default set of Liberty features. Although rare, that default set of Liberty features might change between the buildpack releases. The change in the default feature set might adversely affect the application. There are options to ensure that the application is not affected by the change in the feature defaults.
 

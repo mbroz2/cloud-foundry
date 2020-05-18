@@ -30,7 +30,7 @@ to acquire artifacts required by the application.  The following are the externa
 * http://downloads.dynatracesaas.com/cloudfoundry/buildpack/java/  is used to access the [Dynatrace agent](dynatrace.html).
 
 ## Working with a proxy
-{: #working_with_proxy}
+{: #liberty-working_with_proxy}
 
 In some environments, such as [{{site.data.keyword.Bluemix_dedicated_notm}}](/docs/dedicated/index.html#dedicated) and
 [{{site.data.keyword.Bluemix_local_notm}}](/docs/local/index.html#local), a proxy can be configured. See
