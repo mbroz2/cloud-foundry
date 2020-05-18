@@ -17,7 +17,7 @@ The Liberty monthly runtime provides the latest version and access to new functi
 
 To use the Liberty monthly runtime in {{site.data.keyword.Bluemix_notm}}, you will need to do the following:
 
-Set the `JBP_CONFIG_LIBERTY` environment variable to `"version: +"` and `IBM_LIBERTY_MONTHLY` environment variable to `true`. These variables enable the [Liberty monthly runtime](/docs/runtimes/liberty/buildpackDefaults.html#liberty_versions). For example:
+Set the `JBP_CONFIG_LIBERTY` environment variable to `"version: +"` and `IBM_LIBERTY_MONTHLY` environment variable to `true`. These variables enable the [Liberty monthly runtime](/docs/runtimes/liberty?topic=liberty-buildpack_defauts#liberty_versions). For example:
   * Using the {{site.data.keyword.Bluemix_notm}} CLI tool:
     ```
     ibmcloud cf set-env <yourappname> JBP_CONFIG_LIBERTY "version: +"

@@ -138,8 +138,8 @@ After you enable monitoring on an {{site.data.keyword.cfee_full}}, you have the 
 If you want to use Sysdig, you need to do some additional steps to connect your Sysdig instance with your CFEE.
 These steps are:
 
-* Create your own Sysdig instance if it does not already exist. You can refer to the [Sysdig](https://cloud.ibm.com/docs/services/Monitoring-with-Sysdig?topic=Sysdig-about) documentation for details.
-* Deploy the Sysdig agent on the CFEE environment. You can get the complete command on your Sysdig instance or refer to the [Sysdig agent configuration](https://cloud.ibm.com/docs/services/Monitoring-with-Sysdig?topic=Sysdig-config_agent) documentation for details.
+* Create your own Sysdig instance if it does not already exist. You can refer to the [Sysdig](https://cloud.ibm.com/docs/Monitoring-with-Sysdig?topic=Sysdig-about) documentation for details.
+* Deploy the Sysdig agent on the CFEE environment. You can get the complete command on your Sysdig instance or refer to the [Sysdig agent configuration](https://cloud.ibm.com/docs/Monitoring-with-Sysdig?topic=Sysdig-config_agent) documentation for details.
  
 After your CFEE cluster is connected to your Sysdig instance, you will find common Kubernetes-specific metrics as well as Cloud Foundry related metrics in your Sysdig instance.
 Cloud Foundry related metrics are identified by the following prefixes:
@@ -168,7 +168,7 @@ The following guides you through the steps for installing the required CLI's, fo
 **Note:** The following instructions are also available in the {{site.data.keyword.cfee_full}} user interface. Open the CFEE instance user interface, click **Monitoring** in the left navigation pane, and go to the **Access** tab to see the instructions.
 
 1. Check your [Access Policies](https://cloud.ibm.com/iam/#/users) to ensure that you have at least a Viewer role on the Kubernetes cluster supporting the environment.
-2. Install the [IBM Cloud CLI](https://cloud.ibm.com/docs/cli/reference/ibmcloud/download_cli.html#install_use).
+2. Install the [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-install-ibmcloud-cli#install_use).
 3. Install the [Kubernetes CLI](https://kubernetes.io/docs/tasks/tools/install-kubectl/). If you have an existing Kubernetes CLI, we recommend that you install the latest version.
 4. Install the container service plug-in:
 ```

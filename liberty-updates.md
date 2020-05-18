@@ -227,7 +227,7 @@ ibmcloud cf set-env <appName> IBM_LIBERTY_MONTHLY true
 * The default heap size ratio is now 50% when your application has less than 512mb of memory, if it has more than 512mb it will still be 75%.
 * A new staging task log is now generated, which allows for easier debugging of staging errors.
 * The Node.js runtime that is used by the [App Management utility](../common/app_mng.html) was updated to the 6.13.0 version.
-* The buildpack also provides an updated agent for the [Auto-Scaling service](/docs/services/Auto-Scaling/index.html).
+* The buildpack also provides an updated agent for the [Auto-Scaling service](/docs/Auto-Scaling?topic=Auto-Scaling-get-started).
 
 ### June 12, 2017: Updated Liberty buildpack v3.10-20170525-1107
 * The default Liberty runtime version was updated to the 17.0.0.2 release.
@@ -239,7 +239,7 @@ ibmcloud cf set-env <appName> IBM_LIBERTY_MONTHLY true
 * The default Liberty runtime version `17.0.0.1` was updated to include [PI77770](http://www-01.ibm.com/support/docview.wss?uid=swg24043596), [PI77605](http://www-01.ibm.com/support/docview.wss?uid=swg1PI77605), [PI79275](http://www-01.ibm.com/support/docview.wss?uid=swg1PI79275), and PI77438 iFixes.
 * The monthly Liberty runtime version was updated to the [2017.3.0.0](https://developer.ibm.com/wasdev/blog/2017/03/14/beta-websphere-liberty-tools-march-2017/) release.
 * Memory Calculation was moved from staging to the start process, allowing for easier heap memory changes with the restart of an application.
-* The buildpack also provides updated versions of the agent for the [Auto-Scaling service](/docs/services/Auto-Scaling/index.html), and Extreme Scale Client.
+* The buildpack also provides updated versions of the agent for the [Auto-Scaling service](/docs/Auto-Scaling?topic=Auto-Scaling-get-started), and Extreme Scale Client.
 
 ### March 14, 2017: Updated Liberty buildpack v3.8-20170308-1507
 * The default Liberty runtime version was updated to the 17.0.0.1 release.
@@ -247,24 +247,24 @@ ibmcloud cf set-env <appName> IBM_LIBERTY_MONTHLY true
 * The monthly Liberty runtime version was updated to the [2017.2.0.0](https://developer.ibm.com/wasdev/blog/2017/02/17/beta-websphere-liberty-tools-february-2017/) release.
 * The IBM JRE versions 8 and 7.1 were updated to SR4 FP1.
 * The auto-configuration support was also extended to work with [ibm-websphere-extreme-scale IBM Container](/docs/images/docker_image_extreme_scale/ibm-websphere-extreme-scale_starter.html).
-* The auto-configuration support for [Cloudant NoSQL Database](/docs/services/Cloudant/index.html) was updated to provide the option of using the Cloudant Java Library instead of org.ektorp. To enable the use of the Cloudant Java Library you must set the following environment variable:    
+* The auto-configuration support for [Cloudant NoSQL Database](/docs/Cloudant/index.html) was updated to provide the option of using the Cloudant Java Library instead of org.ektorp. To enable the use of the Cloudant Java Library you must set the following environment variable:    
 ```
 ibmcloud cf set-env <appName> LBP_SERVICE_CONFIG_CLOUDANTNOSQLDB 'type : cloudant'
 ```
-* The buildpack also provides an updated version of the agent for the [Auto-Scaling service](/docs/services/Auto-Scaling/index.html) and a number of application management enhancements.
+* The buildpack also provides an updated version of the agent for the [Auto-Scaling service](/docs/Auto-Scaling?topic=Auto-Scaling-get-started) and a number of application management enhancements.
 * This buildpack also changes the way auto-configuration works for the Monitoring and Analytics service. Applications using the Free plan will no longer have the log capability added to their applications; it is being replaced by logmet.  
 
 
 ### January 23, 2017: Updated Liberty buildpack v3.7-20170118-2046
 * The monthly Liberty runtime version was updated to the [2017.1.0.0](https://developer.ibm.com/wasdev/blog/2017/01/20/beta-websphere-liberty-tools-january-2017/) release.
 * The IBM JRE version 8 was updated to SR3 FP22 version.
-* The [auto-configuration](autoConfig.html) support was also extended to work with the [Compose for MongoDB service](/docs/services/ComposeForMongoDB/index.html) (Currently only available with the monthly Liberty runtime).
+* The [auto-configuration](autoConfig.html) support was also extended to work with the [Compose for MongoDB service](/docs/ComposeForMongoDB/index.html) (Currently only available with the monthly Liberty runtime).
 
 ### December 13, 2016: Updated Liberty buildpack v3.6-20161209-1351
 * The default Liberty runtime version was updated to the [16.0.0.4](http://www-01.ibm.com/support/docview.wss?uid=swg27009661) release.
 * The IBM JRE version 8 was updated to SR3 FP21 version.
-* The [auto-configuration](autoConfig.html) support was also extended to work with the [Compose for PostgreSQL service](/docs/services/ComposeForPostgreSQL/index.html).
-* The buildpack also provides an updated version of the agent for the [Auto-Scaling service](/docs/services/Auto-Scaling/index.html).
+* The [auto-configuration](autoConfig.html) support was also extended to work with the [Compose for PostgreSQL service](/docs/ComposeForPostgreSQL/index.html).
+* The buildpack also provides an updated version of the agent for the [Auto-Scaling service](/docs/Auto-Scaling?topic=Auto-Scaling-get-started).
 * The buildpack was updated to support environment variables as part of the include locations in the `server.xml` files.
 
 ### November 29, 2016: Updated Liberty buildpack v3.5-20161114-1152
@@ -300,13 +300,13 @@ ibmcloud cf set-env <appName> LBP_SERVICE_CONFIG_CLOUDANTNOSQLDB 'type : cloudan
 ### August 26, 2016: Updated Liberty buildpack v3.2-20160822-2200
 * The buildpack contains updated versions of IBM JRE: 8 SR3 FP10 and 7.1 SR3 FP50.
 * The monthly Liberty runtime version was updated to the [2016.8.0.0](https://developer.ibm.com/wasdev/blog/2016/07/28/beta-websphere-liberty-and-tools-august-2016/) release.
-* The service plug-in that provides [auto-configuration support](autoConfig.html) for the [SQL Database](/docs/services/SQLDB/index.html#SQLDB) service was updated to always use the JVM's trusted certificates when connecting to the service over TLS.
+* The service plug-in that provides [auto-configuration support](autoConfig.html) for the [SQL Database](/docs/SQLDB/index.html#SQLDB) service was updated to always use the JVM's trusted certificates when connecting to the service over TLS.
 
 ### July 22, 2016: Updated Liberty buildpack v3.1-20160717-2254
 * The [App Management](../common/app_mng.html) functionality was updated to support federated authentication. Also, the Node.js runtime that is used by the `devconsole` and `shell` utilities was updated to the latest `0.12.15` version.
 * The buildpack adds support for the [Dynatrace Ruxit ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.dynatrace.com/en/ruxit/) application monitoring agent.
 * The buildpack provides an updated data collector for the Monitoring and Analytics service.
-* The buildpack also provides an updated version of the agent for the [Auto-Scaling service](/docs/services/Auto-Scaling/index.html).
+* The buildpack also provides an updated version of the agent for the [Auto-Scaling service](/docs/Auto-Scaling?topic=Auto-Scaling-get-started).
 * The monthly Liberty runtime version was updated to the [2016.7.0.0](https://developer.ibm.com/wasdev/blog/2016/06/30/beta-websphere-liberty-and-tools-july-2016/) release.
 
 ### June 17, 2016: Updated Liberty buildpack v3.0-20160608-1450
@@ -327,7 +327,7 @@ ibmcloud cf set-env <appName> LBP_SERVICE_CONFIG_CLOUDANTNOSQLDB 'type : cloudan
 ### March 25, 2016: Updated Liberty buildpack v2.7-20160321-1358
 * The buildpack contains an updated version of WebSphere Liberty based on the [March beta](https://developer.ibm.com/wasdev/blog/2016/03/18/new-websphere-liberty-features-march-2016/). The updated version of Liberty makes the cloudant-1.0 beta feature available in {{site.data.keyword.Bluemix_notm}}
 * The buildpack also contains updated versions of IBM JRE: 8 SR2 FP12 and 7.1 SR3 FP32.
-* The buildpack provides an updated version of the agent for the [Auto-Scaling service](/docs/services/Auto-Scaling/index.html).
+* The buildpack provides an updated version of the agent for the [Auto-Scaling service](/docs/Auto-Scaling?topic=Auto-Scaling-get-started).
 * The buildpack now comes with a new data collector for the Monitoring and Analytics service. The new collector enables configuration of monitoring thresholds and contains a number of bug fixes.
 * The buildpack provides an updated DB2® JDBC driver version 4.19.49.
 * The Node.js runtime that is used by the [devconsole and shell App Management utilities](../common/app_mng.html#app_management) was updated to the latest 0.12.12 version.
@@ -378,7 +378,7 @@ ibmcloud cf set-env <appName> LBP_SERVICE_CONFIG_CLOUDANTNOSQLDB 'type : cloudan
 ### July 31, 2015: Updated Liberty buildpack v1.20.1-20150729-1255
 * The buildpack contains updated versions of IBM JREs: 7.1 SR1 FP10 and 8 SR1 FP10.
 The updated JREs contain [latest security fixes](http://www-01.ibm.com/support/docview.wss?uid=swg21964161) and other improvements.
-* The service plug-in that provides [auto-configuration support](autoConfig.html) for the [Cloudant NoSQL Database](/docs/services/Cloudant/index.html#Cloudant) service was updated to ensure that the connections to the service are established over a secure channel.
+* The service plug-in that provides [auto-configuration support](autoConfig.html) for the [Cloudant NoSQL Database](/docs/Cloudant/index.html#Cloudant) service was updated to ensure that the connections to the service are established over a secure channel.
 
 ### July 21, 2015: Updated Liberty buildpack v1.20-20150713-1450
 * The buildpack contains an updated version of the Liberty profile based on the [8.5.5.6 release](https://developer.ibm.com/wasdev/blog/2015/06/25/java-ee-7-has-landed-in-was-liberty/). With this release all the Java EE 7 Liberty features previous available as beta features, are now available as production-ready features. Due to port and other restrictions in the {{site.data.keyword.Bluemix_notm}}, some features such as for example remote EJBs are not be fully supported in the platform.

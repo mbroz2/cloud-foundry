@@ -71,7 +71,7 @@ The following screen illustrates access policies as they would appear in the Ide
 
 ![Access policies](img/AccessPolicies_Creator.png)
 
-You can grant user permissions using the {{site.data.keyword.Bluemix}} command line.  You can also define an access policy for a user by specifying the parameters of the policy (i.e., services, roles, regions, etc) in a JSON formatted file that is invoked by the command that creates the policy.  See  [Assigning an IAM policy by using the command line](https://cloud.ibm.com/docs/services/cloud-monitoring/security/assign_policy.html#assign_policy_commandline) for more information, or issue `ibmcloud iam -help` in the command line. Note that this requires installing the [IBM Cloud CLI](https://cloud.ibm.com/docs/cli/reference/ibmcloud/download_cli.html#install_use).
+You can grant user permissions using the {{site.data.keyword.Bluemix}} command line.  You can also define an access policy for a user by specifying the parameters of the policy (i.e., services, roles, regions, etc) in a JSON formatted file that is invoked by the command that creates the policy.  See  [Assigning an IAM policy by using the command line](https://cloud.ibm.com/docs/cloud-monitoring/security/assign_policy.html#assign_policy_commandline) for more information, or issue `ibmcloud iam -help` in the command line. Note that this requires installing the [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-install-ibmcloud-cli#install_use).
 {:tip}
 
 To confirm that you have the required access policies to create an {{site.data.keyword.cfee_full_notm}} instance:

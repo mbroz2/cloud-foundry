@@ -402,7 +402,7 @@ This issue will not be auto-recovered, and need manual intervention to recover.
 
 Since version 3.0 CFEE databases (uaa, ccdb, locked_db) are provisioned on {{site.data.keyword.databases-for-postgresql_full_notm}}.
 You can find more details about this service here:
-- [About IBM Cloud Databases for PostgreSQL](/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-overview)
+- [About IBM Cloud Databases for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-overview)
 There might be a connection issue between monitoring components and DB instance, or a general issue with your CFEE DB instance.
 
 ### Impact
@@ -479,7 +479,7 @@ If CCDB or UAADB or DIEGO_LOCKET will exhaust their max allowed connections expl
 ### How to fix it
 {: #db_con_debug_fix}
 
-1. Login in postgres database with `admin` user credentials. To get the password for `admin` user follow [Set the admin password](/docs/services/databases-for-postgresql?topic=databases-for-postgresql-user-management#the-admin-user)
+1. Login in postgres database with `admin` user credentials. To get the password for `admin` user follow [Set the admin password](/docs/databases-for-postgresql?topic=databases-for-postgresql-user-management#the-admin-user)
 
   ```
   SELECT COUNT(*),datname,state,client_addr FROM pg_stat_activity GROUP BY datname,state,client_addr ORDER BY count DESC;
@@ -513,14 +513,14 @@ In this case the exploiter consuming a lot of connections is the BBS server with
 
 Fixing this issue is not straightforward there could be multiple reasons why the exploiter is having so many connections open:
 
-2.  You can workaround the problem [killing the connections](/docs/services/databases-for-postgresql?topic=databases-for-postgresql-managing-connections#terminating-connections) assigned to a specific IP via SQL:
+2.  You can workaround the problem [killing the connections](/docs/databases-for-postgresql?topic=databases-for-postgresql-managing-connections#terminating-connections) assigned to a specific IP via SQL:
 
   ```
   SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE client_addr = '__CLIENT IP__'
   ```
   {: screen}
 
-3. Depending on root cause it may happen that eventually client will [exceed threshold](/docs/services/databases-for-postgresql?topic=databases-for-postgresql-managing-connections#raising-the-connection-limit).
+3. Depending on root cause it may happen that eventually client will [exceed threshold](/docs/databases-for-postgresql?topic=databases-for-postgresql-managing-connections#raising-the-connection-limit).
 
 NOTE: If external database is unreachable open [Support Ticket](/unifiedsupport/cases/add)
 

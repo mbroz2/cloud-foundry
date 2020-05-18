@@ -184,7 +184,7 @@ To bind a service instance to an application from the [Cloud Foundry services da
 4. Go to the menu located in the far right of the row corresponding to the CFEE/space where the service instance is available, and select **Bind application**.
 5. In the __Bind application__ dialog select the application you want to bind. 
 
-   **Note:** If the to-be-bound service supports both, public and private endpoints (see [IBM Cloud Service Endpoints](https://cloud.ibm.com/docs/services/service-endpoint?topic=service-endpoint-about#about), and/or supports multiple [service access roles](https://cloud.ibm.com/docs/iam?topic=iam-iamconcepts#am) (which specify the allowable actions over the service instance that can be carried out through the binding), a multi-step dialog will prompt you to select an endpoint type (public or private) and/or a specific service role.
+   **Note:** If the to-be-bound service supports both, public and private endpoints (see [IBM Cloud Service Endpoints](https://cloud.ibm.com/docs/service-endpoint?topic=service-endpoint-about#about), and/or supports multiple [service access roles](https://cloud.ibm.com/docs/iam?topic=iam-iamconcepts#am) (which specify the allowable actions over the service instance that can be carried out through the binding), a multi-step dialog will prompt you to select an endpoint type (public or private) and/or a specific service role.
 6. The application is now bound to the service instance.  You can expand a service instance in the table to see the applications bound to it (in a specific CFEE space).
 
 
@@ -214,7 +214,7 @@ You can use the `cf bind-service` command to bind a service instance to an appli
 
 In the following cases the command requires special parameters:
 
-* When you are using the `cf bind-service` command to bind an app to a service instance that supports [IBM Cloud Service Endpoints](https://cloud.ibm.com/docs/services/service-endpoint?topic=service-endpoint-about#about) that connect to IBM Cloud services over the IBM Cloud private network. To bind an application (deployed in a CFEE) to a service that supports both, public and private endpoints, you need to specify which one to use for the bindings.  In the following example the commands binds the service using the private endpoint
+* When you are using the `cf bind-service` command to bind an app to a service instance that supports [IBM Cloud Service Endpoints](https://cloud.ibm.com/docs/service-endpoint?topic=service-endpoint-about#about) that connect to IBM Cloud services over the IBM Cloud private network. To bind an application (deployed in a CFEE) to a service that supports both, public and private endpoints, you need to specify which one to use for the bindings.  In the following example the commands binds the service using the private endpoint
 
   ```
   cf bind-service myApplication myServiceInstance -c '{"service-endpoints":"private"}' 

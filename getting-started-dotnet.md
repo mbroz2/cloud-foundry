@@ -97,7 +97,7 @@ ibmcloud login
   ```
   {: codeblock}
 
-  If you have a federated user ID, instead use the following command to log in with your single sign-on ID. See [Logging in with a federated ID](/docs/cli/login_federated_id.html) to learn more.
+  If you have a federated user ID, instead use the following command to log in with your single sign-on ID. See [Logging in with a federated ID](/docs/iam?topic=iam-federated_id) to learn more.
  ```
 ibmcloud login --sso
   ```
@@ -109,7 +109,7 @@ ibmcloud target --cf
   ```
   {: codeblock}
 
-  If you don't have an org or a space set up, see [Adding orgs and spaces](/docs/account/orgs_spaces.html).
+  If you don't have an org or a space set up, see [Adding orgs and spaces](/docs/account?topic=account-orgsspacesusers).
   {: tip}
 
 1. **Be sure you are in the main directory, `get-started-aspnet-core`, for your application**  then push your application to {{site.data.keyword.Bluemix_notm}}:

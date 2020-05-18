@@ -3,19 +3,19 @@
 copyright:
   years: 2016, 2018
 lastupdated: "2018-06-27"
-subcollection: cloud-foundry
+subcollection: "liberty"
 
 ---
 
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:codeblock: .codeblock}
 
 # Use Dynatrace to monitor Liberty in {{site.data.keyword.cloud_notm}}
 {: #using_dynatrace}
 
-Dynatrace is a third-party service that provides monitoring for your app. You can integrate Dynatrace with your Liberty application, but IBM does not provide support for third-party services. See [Third-party services](/docs/runtimes-common/buildpackSupport.html#third-party) for more information.
+Dynatrace is a third-party service that provides monitoring for your app. You can integrate Dynatrace with your Liberty application, but IBM does not provide support for third-party services. See [Third-party services](/docs/cloud-foundry?topic=cloud-foundry-buildpack_support_statement#third-party) for more information.
 
-For more information about Dynatrace and its licensing, see [Dynatrace Application Monitoring ![External link icon](../../../icons/launch-glyph.svg "External link icon")](http://www.dynatrace.com/en/products/application-monitoring.html).
+For more information about Dynatrace and its licensing, see [Dynatrace Application Monitoring](http://www.dynatrace.com/en/products/application-monitoring.html){: external}.
 
 When your Liberty application is configured to use Dynatrace, the default behavior is that the
 Liberty runtime will acquire a Dynatrace agent `.jar` file from a Dynatrace site and run
@@ -26,7 +26,7 @@ your Dynatrace collector.
 ## Creating a user-provided service that points to your Dynatrace collector
 
 First, you'll need to set up a Dynatrace collector.  Then you must create a user-provided
-service to pass information for the Dynatrace agent to connect with the Dynatrace collector. See [Dynatrace Architecture ![External link icon](../../../icons/launch-glyph.svg "External link icon")](https://community.dynatrace.com/community/display/DOCDT65/Architecture) to better understand the relationship between Dynatrace components.
+service to pass information for the Dynatrace agent to connect with the Dynatrace collector. See [Dynatrace Architecture](https://community.dynatrace.com/community/display/DOCDT65/Architecture){: external} to better understand the relationship between Dynatrace components.
 
 1. Set up a Dynatrace collector.
   * See the [Dynatrace community website ![External link icon](../../../icons/launch-glyph.svg "External link icon")](https://community.dynatrace.com/community/display/EVAL/Step+3+-+Connect+Agent+to+Dynatrace) for instructions on downloading and setting up the Dynatrace collector.

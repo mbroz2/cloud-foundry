@@ -20,7 +20,7 @@ An application-managed service is a service that is managed entirely by the appl
 
 A container-managed service is a service that is managed by the Liberty runtime. In some cases, the application might look up the bound service in JNDI, while in others the service is used directly by Liberty itself. The Liberty buildpack reads VCAP_SERVICES to obtain information about the bound services. For each container-managed service, the buildpack performs three functions.
 
-* Generates [cloud variables](/docs/runtimes/liberty/optionsForPushing.html#accessing_info_of_bound_services) for the bound service.
+* Generates [cloud variables](/docs/runtimes/liberty?topic=liberty-options_for_pushing#accessing_info_of_bound_services) for the bound service.
 * Installs Liberty features and client access codes that are required to access the bound service.
 * Generates or updates `server.xml` file stanzas that are required by the service.
 
@@ -28,17 +28,17 @@ This process is referred to as automatic configuration.
 
 The Liberty buildpack provides automatic configuration for the following service types:
 
-* [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html#autoscaling)
+* [{{site.data.keyword.autoscaling}}](/docs/Auto-Scaling?topic=Auto-Scaling-get-started#autoscaling)
 * [ClearDB MySQL Database ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.cleardb.com/developers)
-* [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant)
-* [{{site.data.keyword.composeForMongoDB}}](/docs/services/ComposeForMongoDB/index.html)
-* [{{site.data.keyword.composeForMySQL}}](/docs/services/ComposeForMySQL/index.html)
-* [{{site.data.keyword.composeForPostgreSQL}}](/docs/services/ComposeForPostgreSQL/index.html)
-* [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/index.html#dashDB)
-* [ElephantSQL](/docs/services/ElephantSQL/index.html)
-* [{{site.data.keyword.ssoshort}}](/docs/services/SingleSignOn/index.html#sso_gettingstarted)
+* [{{site.data.keyword.cloudant}}](/docs/Cloudant?topic=Cloudant-getting-started-with-cloudant)
+* [{{site.data.keyword.composeForMongoDB}}](/docs/ComposeForMongoDB?topic=ComposeForMongoDB-about)
+* [{{site.data.keyword.composeForMySQL}}](/docs/ComposeForMySQL?topic=ComposeForMySQL-about)
+* [{{site.data.keyword.composeForPostgreSQL}}](/docs/ComposeForPostgreSQL?topic=ComposeForPostgreSQL-about)
+* [{{site.data.keyword.dashdbshort}}](/docs/dashDB/index.html#dashDB)
+* [ElephantSQL](/docs/ElephantSQL?topic=ElephantSQL-gettingstarted)
+* [{{site.data.keyword.ssoshort}}](/docs/SingleSignOn/index.html#sso_gettingstarted)
 
-The Compose services can be either container managed or application managed. By default, the Liberty buildpack assumes that these services are container managed, and automatically configures them. If you want the application to manage the service, you can opt-out of automatic configuration for the service by setting the `services_autoconfig_excludes` environment variable. For more information, see [Opting out of service auto-configuration](/docs/runtimes/liberty/autoConfig.html#opting_out).
+The Compose services can be either container managed or application managed. By default, the Liberty buildpack assumes that these services are container managed, and automatically configures them. If you want the application to manage the service, you can opt-out of automatic configuration for the service by setting the `services_autoconfig_excludes` environment variable. For more information, see [Opting out of service auto-configuration](#opting_out).
 
 ## Installation of Liberty features and client access code
 {: #installation_of_liberty_features}
@@ -52,7 +52,7 @@ See the [Opting out of service auto-configuration](#opting_out) section for more
 
 The Liberty buildpack can automatically generate or update configuration stanzas in your `server.xml` file when you push a stand-alone application, depending on how your application is bound to services and whether you have an existing `server.xml` file.
 
-When you push a stand-alone application, the Liberty buildpack generates the `server.xml` configuration stanza, as described in [Options for Pushing Liberty Applications](/docs/runtimes/liberty/optionsForPushing.html#options_for_pushing), to {{site.data.keyword.Bluemix_notm}}.
+When you push a stand-alone application, the Liberty buildpack generates the `server.xml` configuration stanza, as described in [Options for Pushing Liberty Applications](/docs/runtimes/liberty?topic=liberty-options_for_pushing), to {{site.data.keyword.Bluemix_notm}}.
 
 When you push a stand-alone application and bind to container-managed services, the Liberty buildpack generates the necessary `server.xml` stanzas for the bound services.
 

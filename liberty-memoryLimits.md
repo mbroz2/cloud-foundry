@@ -74,4 +74,4 @@ You can set the heap memory size by using environment variables or by changing t
 ```
 {: codeblock}
 
-* Specify the -Xmx argument in the jvm.options file if your application is a [server directory](/docs/runtimes/liberty/optionsForPushing.html#server_directory) or a [packaged server](/docs/runtimes/liberty/optionsForPushing.html#packaged_server). For more inofrmation on usig the `jvm.options` file with the Liberty runtime, see [Setting generic JVM](http://www-01.ibm.com/support/docview.wss?uid=swg21596474).  
+* Specify the -Xmx argument in the jvm.options file if your application is a [server directory](/docs/runtimes/liberty?topic=liberty-options_for_pushing#server_directory) or a [packaged server](/docs/runtimes/liberty?topic=liberty-options_for_pushing#packaged_server). For more inofrmation on usig the `jvm.options` file with the Liberty runtime, see [Setting generic JVM](http://www-01.ibm.com/support/docview.wss?uid=swg21596474).  

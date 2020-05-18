@@ -105,7 +105,7 @@ To fully isolate a {{site.data.keyword.cfee_full_notm}} from Internet traffic, u
 
 ## Disabling the public CSE for PostgreSQL:
 {: #disable-icd-postgres-public-cse}
-To disable the public CSE for the IBM Cloud Databases (ICD) for PostgreSQL instance associated with your {{site.data.keyword.cfee_full_notm}} instance, first identify which is the correct ICD instance in your account and then follow the directions [here](https://cloud.ibm.com/docs/services/databases-for-postgresql?topic=cloud-databases-service-endpoints#changing-service-endpoints).
+To disable the public CSE for the IBM Cloud Databases (ICD) for PostgreSQL instance associated with your {{site.data.keyword.cfee_full_notm}} instance, first identify which is the correct ICD instance in your account and then follow the directions [here](https://cloud.ibm.com/docs/databases-for-postgresql?topic=cloud-databases-service-endpoints#changing-service-endpoints).
 
 ## Disabling Cloud Foundry and Application via the public ALB
 {: #disable-public-alb}
