@@ -54,20 +54,6 @@ Cloud Foundry Enterprise Environment
         byob.md
 
         {: .topicgroup}
-        ASP.NET
-            getting-started-dotnet.md
-            dotnet-index.md
-            dotnet-disablingNuGet.md
-            dotnet-usingNuGet.md
-            dotnet-compile_pub_deploy.md
-            dotnet-enforceHTTPS.md
-            dotnet-buildOutputfiles.md
-            dotnet-usingCustomLib.md
-            dotnet-runtimeVersions.md
-
-        getting-started-go.md
-
-        {: .topicgroup}
         Liberty for Java
             getting-started-liberty.md
             liberty-index.md
@@ -90,10 +76,6 @@ Cloud Foundry Enterprise Environment
             liberty-environmentVariables.md
             liberty-buildpackDefaults.md
 
-        getting-started-php.md
-        getting-started-python.md
-        getting-started-ruby.md
-
         {: .topicgroup}
         SDK for Node.js
             getting-started-node.md
@@ -106,6 +88,22 @@ Cloud Foundry Enterprise Environment
             nodejs-configurationOptions.md
             nodejs-availableVersions.md
 
+        {: .topicgroup}
+        ASP.NET
+            getting-started-dotnet.md
+            dotnet-index.md
+            dotnet-disablingNuGet.md
+            dotnet-usingNuGet.md
+            dotnet-compile_pub_deploy.md
+            dotnet-enforceHTTPS.md
+            dotnet-buildOutputfiles.md
+            dotnet-usingCustomLib.md
+            dotnet-runtimeVersions.md
+
+        getting-started-go.md
+        getting-started-php.md
+        getting-started-python.md
+        getting-started-ruby.md
         getting-started-swift.md
         getting-started-tomcat.md
         workingWithProxy.md
