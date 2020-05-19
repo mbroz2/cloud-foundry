@@ -11,7 +11,7 @@ subcollection: cloud-foundry
 {:codeblock: .codeblock}
 
 # Enforce HTTPS on all pages in your application
-{: #enforce_https}
+{: #dotnet-enforce_https}
 
 To enforce HTTPS instead of HTTP on all pages in your application when it runs in {{site.data.keyword.Bluemix}}, you need to make the following changes to your application.
 
