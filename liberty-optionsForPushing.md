@@ -22,7 +22,7 @@ You can use the following methods to deploy your Liberty applications to {{site.
 * Pushing a server directory
 * Pushing a packaged server
 
-Important: When you deploy an application with the Liberty buildpack, specify a minimum of 512M as the memory limit for your applications. For more information, see [Memory limits and the Liberty buildpack](/docs/runtimes/liberty?topic=liberty-memory_limits).
+Important: When you deploy an application with the Liberty buildpack, specify a minimum of 512M as the memory limit for your applications. For more information, see [Memory limits and the Liberty buildpack](/docs/cloud-foundry?topic=cloud-foundry-memory_limits).
 
 ## Stand-alone apps
 {: #stand_alone_apps}
@@ -63,7 +63,7 @@ These features correspond to the Java EE 7 Web Profile features. You can specify
 ```
 {: codeblock}
 
-Note: For best results, set the Liberty features with the JBP_CONFIG_LIBERTY environment variable or deploy your application as a [server directory](/docs/runtimes/liberty?topic=liberty-options_for_pushing#server_directory) or [packaged server](/docs/runtimes/liberty?topic=liberty-options_for_pushing#packaged_server) with a custom server.xml file. Setting this environment variable ensures that your application uses only the feature that it needs and it is not affected by the buildpack's default Liberty feature set changes. If you need to provide extra Liberty configuration beyond the feature set, use the [server directory](/docs/runtimes/liberty?topic=liberty-options_for_pushing#server_directory) or the [packaged server](/docs/runtimes/liberty?topic=liberty-options_for_pushing#packaged_server) option to deploy your application.
+Note: For best results, set the Liberty features with the JBP_CONFIG_LIBERTY environment variable or deploy your application as a [server directory](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#server_directory) or [packaged server](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#packaged_server) with a custom server.xml file. Setting this environment variable ensures that your application uses only the feature that it needs and it is not affected by the buildpack's default Liberty feature set changes. If you need to provide extra Liberty configuration beyond the feature set, use the [server directory](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#server_directory) or the [packaged server](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#packaged_server) option to deploy your application.
 
 If you deployed a WAR file, the web application is accessible under the context root as set in the embedded ibm-web-ext.xml file. If the ibm-web-ext.xml file does not exist, or does not specify the context root, the application is accessible under the root context. For example,
 

@@ -35,12 +35,12 @@ Environment variables supported by Liberty for Java.
 
 <tr>
 <td>IBM_LIBERTY_MONTHLY</td>
-<td>Enable [Liberty monthly release runtime/](/docs/runtimes/liberty?topic=liberty-using_monthly_runtime)</td>
+<td>Enable [Liberty monthly release runtime/](/docs/cloud-foundry?topic=cloud-foundry-using_monthly_runtime)</td>
 </tr>
 
 <tr>
 <td>JAVA_OPTS</td>
-<td>Set [Java options](/docs/runtimes/liberty?topic=liberty-customizing_jre)</td>
+<td>Set [Java options](/docs/cloud-foundry?topic=cloud-foundry-customizing_jre)</td>
 </tr>
 
 <tr>
@@ -50,22 +50,22 @@ Environment variables supported by Liberty for Java.
 
 <tr>
 <td>JBP_CONFIG_IBMJDK </td>
-<td>Configure the [IBM JRE version](/docs/runtimes/liberty?topic=liberty-customizing_jre)</td>
+<td>Configure the [IBM JRE version](/docs/cloud-foundry?topic=cloud-foundry-customizing_jre)</td>
 </tr>
 
 <tr>
 <td>JBP_CONFIG_LIBERTY</td>
-<td>Configure a variety of Liberty runtime options including [features for WAR or EAR files](/docs/runtimes/liberty?topic=liberty-options_for_pushing#stand_alone_apps)</td>
+<td>Configure a variety of Liberty runtime options including [features for WAR or EAR files](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#stand_alone_apps)</td>
 </tr>
 
 <tr>
 <td>JBP_CONFIG_OPENJDK</td>
-<td>Configure the [OpenJDK version](/docs/runtimes/liberty?topic=liberty-customizing_jre)</td>
+<td>Configure the [OpenJDK version](/docs/cloud-foundry?topic=cloud-foundry-customizing_jre)</td>
 </tr>
 
 <tr>
 <td>JBP_CONFIG_OPENJ9</td>
-<td>Configure the [OpenJ9 version](/docs/runtimes/liberty?topic=liberty-customizing_jre)</td>
+<td>Configure the [OpenJ9 version](/docs/cloud-foundry?topic=cloud-foundry-customizing_jre)</td>
 </tr>
 
 <tr>
@@ -80,17 +80,17 @@ Environment variables supported by Liberty for Java.
 
 <tr>
 <td>JVM</td>
-<td>Select the [JRE type](/docs/runtimes/liberty?topic=liberty-customizing_jre)</td>
+<td>Select the [JRE type](/docs/cloud-foundry?topic=cloud-foundry-customizing_jre)</td>
 </tr>
 
 <tr>
 <td>JVM_ARGS</td>
-<td>Set the [JVM arguments](/docs/runtimes/liberty?topic=liberty-customizing_jre)</td>
+<td>Set the [JVM arguments](/docs/cloud-foundry?topic=cloud-foundry-customizing_jre)</td>
 </tr>
 
 <tr>
 <td>LBP_SERVICE_CONFIG_xxxx</td>
-<td>[Override service configuration](/docs/runtimes/liberty?topic=liberty-auto_config#override_service_config)</td>
+<td>[Override service configuration](/docs/cloud-foundry?topic=cloud-foundry-auto_config#override_service_config)</td>
 </tr>
 
 <tr>
@@ -105,7 +105,7 @@ Environment variables supported by Liberty for Java.
 
 <tr>
 <td>services_autoconfig_excludes</td>
-<td>Disable service [auto-configuration.](/docs/runtimes/liberty?topic=liberty-auto_config#opting_out)</td>
+<td>Disable service [auto-configuration.](/docs/cloud-foundry?topic=cloud-foundry-auto_config#opting_out)</td>
 </tr>
 </table>
 {: caption="Table 1. Environment variables available for Liberty for Java" caption-side="top"}

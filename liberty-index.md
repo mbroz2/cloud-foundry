@@ -20,11 +20,11 @@ Liberty for Java applications on {{site.data.keyword.Bluemix}} are powered by th
 ## Detection
 {: #liberty-detection}
 The Liberty buildpack is used when the following kinds of applications are deployed:
-* [WAR files](/docs/runtimes/liberty?topic=liberty-options_for_pushing#stand_alone_apps)
-* [EAR files](/docs/runtimes/liberty?topic=liberty-options_for_pushing#stand_alone_apps)
-* [Liberty server directory](/docs/runtimes/liberty?topic=liberty-options_for_pushing#server_directory)
-* [Liberty packaged server](/docs/runtimes/liberty?topic=liberty-options_for_pushing#packaged_server)
-* [Java main](/docs/runtimes/liberty?topic=liberty-options_for_pushing#java_main)
+* [WAR files](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#stand_alone_apps)
+* [EAR files](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#stand_alone_apps)
+* [Liberty server directory](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#server_directory)
+* [Liberty packaged server](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#packaged_server)
+* [Java main](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#java_main)
 * [Distzip](https://github.com/cloudfoundry/ibm-websphere-liberty-buildpack/blob/master/docs/container-distZip.md)
 
 ## Starter application

@@ -24,13 +24,13 @@ The buildpack has default values for settings such as the Java version or Libert
 The buildpack provides two versions of the Liberty runtime:
 1. A long-term stable release
   * It is the default Liberty runtime.
-  * It does not provide any [beta features](/docs/runtimes/liberty?topic=liberty-using_beta_features).
+  * It does not provide any [beta features](/docs/cloud-foundry?topic=cloud-foundry-using_beta_features).
   * Typically updated on a quarterly basis.
 
 2. The monthly release
   * It must be explicity enabled by setting the **JBP_CONFIG_LIBERTY** environment variable with the **"version: +"** value and
   the **IBM_LIBERTY_MONTHLY** environment variable with **true**.
-  * It provides [monthly features](/docs/runtimes/liberty?topic=liberty-using_monthly_runtime).
+  * It provides [monthly features](/docs/cloud-foundry?topic=cloud-foundry-using_monthly_runtime).
   * Typically updated every 4 weeks.
 
 ## Liberty features
@@ -38,8 +38,8 @@ The buildpack provides two versions of the Liberty runtime:
 
 When you deploy WAR or EAR files, the buildpack provides a configuration for the application with a default set of Liberty features. Although rare, that default set of Liberty features might change between the buildpack releases. The change in the default feature set might adversely affect the application. There are options to ensure that the application is not affected by the change in the feature defaults.
 
-* Set the JBP_CONFIG_LIBERTY environment variable to explicitly specify a list of enabled features for the application. For more information, see [Stand-alone Applications](/docs/runtimes/liberty?topic=liberty-options_for_pushing#stand_alone_apps).
-* Deploy your application as a [server directory](/docs/runtimes/liberty?topic=liberty-options_for_pushing#server_directory) or a [packaged server](/docs/runtimes/liberty?topic=liberty-options_for_pushing#packaged_server). Provide a custom server.xml file that specifies the exact set of features that are needed by your application.
+* Set the JBP_CONFIG_LIBERTY environment variable to explicitly specify a list of enabled features for the application. For more information, see [Stand-alone Applications](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#stand_alone_apps).
+* Deploy your application as a [server directory](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#server_directory) or a [packaged server](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#packaged_server). Provide a custom server.xml file that specifies the exact set of features that are needed by your application.
 
 Applications that are deployed as a server directory or a packaged server are unaffected by the change in the Liberty features default.
 
@@ -48,4 +48,4 @@ Applications that are deployed as a server directory or a packaged server are un
 
 The buildpack provides a default JRE for the application. The major or minor version of the JRE might change between the buildpack releases. The minor version of the JRE might be updated frequently while the major version is rarely updated. The change in the major version of the JRE might adversely affect the application.
 
-To ensure that the application is not affected by the major version change, set the environment variable with the appropriate JRE version as described in [Customizing the JRE](/docs/runtimes/liberty?topic=liberty-customizing_jre). For best results, adopt Java 8 for your applications.
+To ensure that the application is not affected by the major version change, set the environment variable with the appropriate JRE version as described in [Customizing the JRE](/docs/cloud-foundry?topic=cloud-foundry-customizing_jre). For best results, adopt Java 8 for your applications.

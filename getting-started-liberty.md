@@ -192,7 +192,7 @@ Remember, if you don't need your app live on {{site.data.keyword.Bluemix_notm}},
 ## Next steps
 {: #nextsteps-liberty}
 
-[Manage your Liberty for Java app](/docs/runtimes/liberty?topic=liberty-liberty_runtime). Some example tasks include:
+[Manage your Liberty for Java app](/docs/cloud-foundry?topic=cloud-foundry-liberty_runtime). Some example tasks include:
 {: hide-dashboard}
 
 * {: hide-dashboard}Configure logginga tracing.

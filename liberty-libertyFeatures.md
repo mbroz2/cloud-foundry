@@ -13,7 +13,7 @@ subcollection: cloud-foundry
 # Liberty features supported in {{site.data.keyword.cloud_notm}}
 {: #liberty_features}
 
-The Liberty for Java runtime includes a subset of Liberty features. To use a feature that is not included in the runtime, see [Install Liberty features](/docs/runtimes/liberty?topic=liberty-install-features). For a complete list of the features available in Liberty, along with Java EE versions and other information, see
+The Liberty for Java runtime includes a subset of Liberty features. To use a feature that is not included in the runtime, see [Install Liberty features](/docs/cloud-foundry?topic=cloud-foundry-install-features). For a complete list of the features available in Liberty, along with Java EE versions and other information, see
 [Liberty features ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSEQTP_liberty/com.ibm.websphere.wlp.doc/ae/rwlp_feat.html).
 
 ## Cloud-specific features
@@ -25,9 +25,9 @@ The following features are included and are specific to {{site.data.keyword.Blue
 * cloudAutowiring-1.0
 * logAnalysis-1.0
 
-A subset of the available features are enabled by default when deploying WAR or EAR files. See [Stand-alone apps](/docs/runtimes/liberty?topic=liberty-options_for_pushing#stand_alone_apps) for details.
+A subset of the available features are enabled by default when deploying WAR or EAR files. See [Stand-alone apps](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#stand_alone_apps) for details.
 
-The Liberty for Java runtime also makes some Liberty beta features available. These features are listed in [Using the beta features](/docs/runtimes/liberty?topic=liberty-using_beta_features).
+The Liberty for Java runtime also makes some Liberty beta features available. These features are listed in [Using the beta features](/docs/cloud-foundry?topic=cloud-foundry-using_beta_features).
 
 ## Feature compatibility
 {:#feature-compatibility}

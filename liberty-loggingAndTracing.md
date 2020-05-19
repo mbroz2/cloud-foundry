@@ -47,7 +47,7 @@ The Liberty tracing configuration can be adjusted for a running application dire
 
 When you push the application, the server.xml file includes the default properties  **updateTrigger** set to **polled** and **monitorInterval** set to 1 minute. The Liberty server is automatically configured to check for updates to the server.xml file each minute.
 
-See [Push Liberty apps with server.xml](/docs/runtimes/liberty?topic=liberty-options_for_pushing#options_for_pushing) for options to push Liberty apps with a customized `server.xml` file.
+See [Push Liberty apps with server.xml](/docs/cloud-foundry?topic=cloud-foundry-options_for_pushing#options_for_pushing) for options to push Liberty apps with a customized `server.xml` file.
 
 See [Controlling Dynamic Updates](https://www.ibm.com/support/knowledgecenter/SSEQTP_liberty/com.ibm.websphere.wlp.doc/ae/twlp_setup_dyn_upd.html){: new_window} for how to set up dynamic update in the server.xml file.
 

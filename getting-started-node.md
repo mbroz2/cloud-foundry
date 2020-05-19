@@ -193,7 +193,7 @@ npm start
 
   View your local app at http://localhost:3000. Any names you enter into the app will now get added to the database.
 
-**Avoid trouble**: {{site.data.keyword.Bluemix_notm}} defines the PORT environment variable when your app runs on the cloud. When you run your app locally, the PORT variable is not defined, so 3000 is used as the port number. See [Run your app locally](/docs/runtimes/nodejs?topic=Nodejs-hints) for more information.
+**Avoid trouble**: {{site.data.keyword.Bluemix_notm}} defines the PORT environment variable when your app runs on the cloud. When you run your app locally, the PORT variable is not defined, so 3000 is used as the port number. See [Run your app locally](/docs/cloud-foundry?topic=cloud-foundry-hints) for more information.
 
   Your local app and the {{site.data.keyword.Bluemix_notm}} app are sharing the database. Names you add from either app will appear in both when you refresh the browsers.
 
@@ -203,7 +203,7 @@ Remember, if you don't need your app live on {{site.data.keyword.Bluemix_notm}},
 ## Next steps
 {: #nextsteps-node}
 
-[Manage your Node.js app](/docs/runtimes/nodejs?topic=Nodejs-nodejs_runtime). Some example tasks include configuring caching and integrating third-party services.
+[Manage your Node.js app](/docs/cloud-foundry?topic=cloud-foundry-nodejs_runtime). Some example tasks include configuring caching and integrating third-party services.
 {: hide-dashboard}
 
 Check out the following resources:
