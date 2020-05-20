@@ -275,7 +275,7 @@ ibmcloud cf set-env <appName> LBP_SERVICE_CONFIG_CLOUDANTNOSQLDB 'type : cloudan
 * The Monitoring and Analytics service integration was fixed to work with [Diego ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html).
 * The [Dynatrace](dynatrace.html) service integrations were updated to work better with the Dynatrace service offerings.
 * The [auto-configuration](autoConfig.html) support for PostgreSQL and MySQL type of services was improved to work better when deploying a server directory or packaged server.
-* The Node.js runtime that is used by the [devconsole and shell App Management utilities](docs/runtimes-common/app_mng.html#app_management) was updated to the latest `0.12.17` version.
+* The Node.js runtime that is used by the [devconsole and shell App Management utilities](/docs/cloud-foundry?topic=cloud-foundry-app_management) was updated to the latest `0.12.17` version.
 * [Security fixes](http://www.ibm.com/support/docview.wss?uid=swg21994945) for the Liberty runtime are included.
 
 ### November 1, 2016: Updated Liberty buildpack v3.4.1-20161030-2241

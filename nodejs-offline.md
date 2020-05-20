@@ -66,4 +66,4 @@ Whenever you make a change to dependencies in the `package.json` file , rerun th
 
 In some environments such as [{{site.data.keyword.Bluemix_dedicated_notm}}](/docs/dedicated/index.html#dedicated) and
 [{{site.data.keyword.Bluemix_local_notm}}](/docs/local/index.html#local), a proxy can be configured. See
-[Working with a proxy](/docs/runtimes-common/workingWithProxy.html) for more details.
+[Working with a proxy](/docs/cloud-foundry?topic=cloud-foundry-working_with_proxy) for more details.
