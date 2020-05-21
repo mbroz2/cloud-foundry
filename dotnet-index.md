@@ -22,10 +22,10 @@ They combine to enable modern, cloud-based web applications.
 
 ## Detection
 {: #dotnet-detection}
-The {{site.data.keyword.Bluemix}} ASP.NET Core buildpack is used if there are one or more folders containing both a project.json and at least one .cs file anywhere in the application,
- or if the application is pushed from the output directory of the *dotnet publish* command.
+The {{site.data.keyword.Bluemix}} ASP.NET Core buildpack is used if there are one or more folders containing both a `project.json` and at least one `.cs` file anywhere in the application,
+ or if the application is pushed from the output directory of the `dotnet publish` command.
 
 ## Starter application
 {: #dotnet-starter_application}
 
-{{site.data.keyword.Bluemix_notm}} provides an ASP.NET Core starter application.  The ASP.NET Core starter application is a simple app that provides a template that you can use. You can experiment with the starter app, and make and push changes to the {{site.data.keyword.Bluemix_notm}} environment.  See [Using the starter applications](docs/runtimes-common/starter_app_usage.html) for help with using the starter application.
+{{site.data.keyword.Bluemix_notm}} provides an ASP.NET Core starter application.  The ASP.NET Core starter application is a simple app that provides a template that you can use. You can experiment with the starter app, and make and push changes to the {{site.data.keyword.Bluemix_notm}} environment.
