@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-04-08"
+lastupdated: "2020-06-05"
 
 ---
 
@@ -13,6 +13,11 @@ lastupdated: "2020-04-08"
 {: #liberty-latest_updates}
 
 ## A list of the latest updates in the Liberty buildpack.
+
+### June 5, 2020: Updated Liberty buildpack v3.45-20200601-1056
+* The default Liberty runtime GA version is the `20.0.0.6` release.
+* The alternate Liberty runtime GA version was changed to `20.0.0.6` release
+* The IBM JRE version was updated to [8 SR6 FP10](https://developer.ibm.com/javasdk/2020/05/06/ibm-sdk-java-technology-edition-version-8-service-refresh-6-fix-pack-10/) 
 
 ### May 4, 2020: Updated Liberty buildpack v.3.44-20200430-1451
 
