@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-05-01"
+lastupdated: "2020-06-18"
 subcollection: cloud-foundry
 ---
 
@@ -13,6 +13,22 @@ subcollection: cloud-foundry
 {: #dotnet-latest_updates}
 
 A list of the latest updates in the ASP.NET Core buildpack.
+
+## June 18, 2020: Updated the ASP.NET Core buildpack v2.7-20200615-1457
+This release includes version 2.3.11 of the dotnet-core Cloud Foundry buildpack.
+
+* Add support for .NET Aspnetcore 2.1.18
+* Add support for .NET Aspnetcore 3.1.4
+* Add support for .NET Runtime 3.1.4
+* Add support for .NET SDK 2.1.701
+* Add support for .NET SDK 2.1.806
+* Add support for .NET SDK 3.1.202
+* Remove support for .NET Aspnetcore 3.1.2
+* Remove support for .NET Aspnetcore 2.1.16
+* Remove support for .NET Runtime 2.1.16
+* Remove support for .NET SDK 2.1.804
+* Remove support for .NET SDK 3.1.200
+* Update Node.js version to 10.21.0
 
 ## May 1, 2020: Updated the ASP.NET Core buildpack v2.6-20200424-1047
 This release includes version 2.3.9 of the dotnet-core Cloud Foundry buildpack.
@@ -49,6 +65,7 @@ This release includes version 2.3.9 of the dotnet-core Cloud Foundry buildpack.
 * Remove support for .NET SDK 2.2.301
 * Remove support for .NET SDK 2.2.402
 * Remove support for .NET SDK 3.0.100
+* Update Node.js version to 10.20.1
 
 ## December 18, 2019: Updated the ASP.NET Core buildpack v2.5-20191209-1920
 This release includes version 2.3.2 of the dotnet-core Cloud Foundry buildpack.
