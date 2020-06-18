@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-05-01"
+lastupdated: "2020-06-18"
 subcollection: cloud-foundry
 ---
 
@@ -24,10 +24,10 @@ This buildpack supports the following versions, those marked as deprecated will 
 
 | .NET SDK version        | Default          |
 |-------------------------|------------------|
-| 3.1.201                 |   Yes            |
-| 3.1.200                 |   No             |
+| 3.1.202                 |   Yes            |
+| 3.1.201                 |   No             |
+| 2.1.806                 |   No             |
 | 2.1.805                 |   No             |
-| 2.1.804                 |   No             |
 | 2.1.701                 |   No             |
 | 2.1.606                 |   No             |
 | 2.1.605                 |   No             |
@@ -36,24 +36,24 @@ This buildpack supports the following versions, those marked as deprecated will 
 | 2.1.403                 |   No             |
 
 
-
 ### .NET Core runtime versions
 
 | .NET Core runtime version | Release type      |
 |---------------------------|-------------------|
-| 3.1.3                     | Current           |
+| 3.1.4                     | Current           |
+| 3.1.3                     | Normal            |
 | 2.1.17                    | Normal            |
-| 2.1.16                    | Normal            |
+
 
 
 ### .NET aspnetcore versions
 
 | .NET aspnetcore version | Release type        |
 |---------------------------|-------------------|
-| 3.1.3                     | Current           |
-| 3.1.2                     | Normal            |
+| 3.1.4                     | Current           |
+| 3.1.3                     | Normal            |
+| 2.1.18                    | Normal            |
 | 2.1.17                    | Normal            |
-| 2.1.16                    | Normal            |
 
 
 
@@ -64,7 +64,7 @@ Control the .NET SDK version with an optional `global.json` file in the applicat
 ```
    {
       "sdk": {
-        "version": "3.1.201"
+        "version": "3.1.202"
       }
    }
 ```
