@@ -74,7 +74,7 @@ Before you create your CFEE, make sure that you are in the {{site.data.keyword.B
 
 8.  Click **Create**, which opens the environment dashboard and indicates the creation progress and status.
 
-**Note:** Once the creation process has started, a table row for the CFEE is shown in the {{site.data.keyword.Bluemix_notm}} dashboard, in the _Resource List_, and in the [Cloud Foundry Environments dashboard](https://cloud.ibm.com/dashboard/cloudfoundry?filter=cf_environments).  The status in the table row indicates when creation is completed.
+**Note:** Once the creation process has started, a table row for the CFEE is shown in the {{site.data.keyword.Bluemix_notm}} dashboard, in the _Resource List_, and in the [Cloud Foundry Environments dashboard](https://cloud.ibm.com/resources?filter=cf_environments).  The status in the table row indicates when creation is completed.
 
 The automated process that creates the environment deploys the infrastructure into a Kubernetes cluster and configures it to make it ready for use. The process takes 90 - 120 minutes.
 

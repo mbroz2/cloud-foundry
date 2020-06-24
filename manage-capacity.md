@@ -17,7 +17,7 @@ lastupdated: "2019-06-06"
 
 Administrators and developers can see how the resource capacity (memory and CPU) of an CFEE is used by applications and cells. To monitor resource usage in a CFEE instance:
 
-1. Go to the [{{site.data.keyword.Bluemix_notm}} Cloud Foundry dashboard](https://cloud.ibm.com/dashboard/cloudfoundry?filter=cf_environments) and open the {{site.data.keyword.cfee_full_notm}} where you want to manage resource usage.
+1. Go to the [{{site.data.keyword.Bluemix_notm}} Cloud Foundry dashboard](https://cloud.ibm.com/resources?filter=cf_environments) and open the {{site.data.keyword.cfee_full_notm}} where you want to manage resource usage.
 2. In the {{site.data.keyword.cfee_full_notm}} user interface, go to the **Resource Usage** entry in the left navigation pane to open the _Resource Usage_ page. Under the _Resource Usage_ page you can either go to the _Applications_ or the _Cells_ sub-entries to open the corresponding pages.  The information displayed in the _Applications_ and _Cells_ pages can be considered two ways of breaking down resource usage:
    * The **Applications** page analyzes resource usage by applications aggregated across instances.
    * The **Cells** page shows resource usage of application instances running on specific cells. The pattern of resource usage across cells can provide insights into capacity and load distribution.  For example, it may help identify problems with the load balancing of applications (e.g., large differences in the resources used by an application across cells) or resource usage approaching overall capacity (i.e., large percentages of resource usage in all cells).

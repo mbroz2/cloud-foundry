@@ -150,7 +150,7 @@ The error means that some of autoscaler pods are down.
   ```
   {: screen}
 4. Wait at least 1 minute and verify the alert disappears from Prometheus.
-5. Go to the [{{site.data.keyword.Bluemix_notm}} Cloud Foundry dashboard](https://cloud.ibm.com/dashboard/cloudfoundry?filter=cf_environments) and open the {{site.data.keyword.cfee_full_notm}} where you want to check the actual status of Autoscaler.
+5. Go to the [{{site.data.keyword.Bluemix_notm}} Cloud Foundry dashboard](https://cloud.ibm.com/resources?filter=cf_environments) and open the {{site.data.keyword.cfee_full_notm}} where you want to check the actual status of Autoscaler.
 6. In the {{site.data.keyword.cfee_full_notm}} user interface, go to the **Operations** entry in the left navigation pane and click on **Health check** entry to open the _Health check_ page. The status of Autoscaler should be **No known issues**.
 7. Autoscaler service should be ready.
 

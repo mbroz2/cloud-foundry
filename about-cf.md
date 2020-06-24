@@ -15,7 +15,7 @@ lastupdated: "2019-08-28"
 
 [Cloud Foundry](https://www.cloudfoundry.org/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") is the premier industry standard Platform-as-a-Service (PaaS), that ensures the fastest, easiest, and most reliable deployment of cloud-native applications. Cloud Foundry ensures that the build and deploy aspects of coding remain carefully coordinated with any attached services — resulting in quick, consistent and reliable iterating of applications.
 
-Check out the following [video](https://www.youtube.com/watch?v=lH6EY761wgc){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") to learn more about all the compute options available on {{site.data.keyword.cloud_notm}}. 
+Check out the following [video](https://www.youtube.com/watch?v=lH6EY761wgc){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") to learn more about all the compute options available on {{site.data.keyword.cloud_notm}}.
 {: shortdesc}
 
 ## Benefits of Cloud Foundry
@@ -47,7 +47,7 @@ IBM offers the Cloud Foundry PaaS in several hosting models, allowing you to cus
 ### Public
 {: #ibmcf-public}
 
-Run your cloud-native app using Cloud Foundry for simple stand-up and powerful scaling and traffic management. Consumption is by hour and changes dynamically based on usage. 
+Run your cloud-native app using Cloud Foundry for simple stand-up and powerful scaling and traffic management. Consumption is by hour and changes dynamically based on usage.  For more information see the {{site.data.keyword.cloud_notm}} Public documentation [here](https://cloud.ibm.com/docs/cloud-foundry-public){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").  
 
 ### Enterprise Environment
 {: #ibmcf-ee}
@@ -58,5 +58,3 @@ Allows you to create and manage isolated environments for hosting Cloud Foundr
 {: #ibmcf-private}
 
 An on-premises Cloud Foundry platform that runs in your data-center on your infrastructure, giving the highest level of isolation security for your application hosting.
-
-

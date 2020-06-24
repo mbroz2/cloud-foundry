@@ -24,7 +24,7 @@ Apps in an {{site.data.keyword.cfee_full}} are scoped within specific spaces. In
 
 To create organizations in an {{site.data.keyword.cfee_full_notm}}:
 
-1. Go to the [{{site.data.keyword.Bluemix_notm}} Cloud Foundry Environments dashboard](https://cloud.ibm.com/dashboard/cloudfoundry?filter=cf_environments){: new_window} and open the {{site.data.keyword.cfee_full_notm}} where you want to create organizations.
+1. Go to the [{{site.data.keyword.Bluemix_notm}} Cloud Foundry Environments dashboard](https://cloud.ibm.com/resources?filter=cf_environments){: new_window} and open the {{site.data.keyword.cfee_full_notm}} where you want to create organizations.
 2. In the {{site.data.keyword.cfee_full_notm}} user interface, go to the **Organizations** entry in the navigation pane to open the _organizations_ page.
 3. Click **Create Organization**.
 4. Enter a **Name** for the new organization.
