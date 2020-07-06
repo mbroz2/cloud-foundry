@@ -77,6 +77,14 @@ Some references and information about IBM PaaS products and application developm
 
 The {{site.data.keyword.cfee_full_notm}} service packages specific versions of Cloud Foundry and buildpacks, and it is tested for function using specific versions of the Cloud Foundry CLI.  Where these versions do not change between releases, we typically do not list them explicitly.  Users can assume that the most recently listed versions for a given release are still valid for subsequent {{site.data.keyword.cfee_full_notm}} releases unless otherwise specified.
 
+## Version 6.1.1
+{: #611}
+
+_Release Date:_ 2020-07-07
+
+### New Capabilities
+* {{site.data.keyword.cfee_full_notm}} v6.1.1 now supports IKS 1.16.10
+
 ## Version 6.1.0
 {: #610}
 
