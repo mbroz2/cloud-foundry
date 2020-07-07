@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2020
-lastupdated: "2020-06-05"
+lastupdated: "2020-07-07"
 
 ---
 
@@ -13,6 +13,10 @@ lastupdated: "2020-06-05"
 {: #liberty-latest_updates}
 
 ## A list of the latest updates in the Liberty buildpack.
+
+### July 7, 2020: Updated Liberty buildpack v3.46-20200626-1029
+* The default Liberty runtime GA version is the [20.0.0.6](https://openliberty.io/blog/2020/06/05/graphql-open-liberty-20006.html) release.
+* The alternate Liberty runtime GA version was changed to [20.0.0.7](https://openliberty.io/blog/2020/07/02/disable-default-cookies-20007.html) release.
 
 ### June 5, 2020: Updated Liberty buildpack v3.45-20200601-1056
 * The default Liberty runtime GA version is the [20.0.0.6](https://openliberty.io/blog/2020/06/05/graphql-open-liberty-20006.html) release.
