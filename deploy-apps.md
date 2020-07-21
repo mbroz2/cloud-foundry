@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-09-03"
+  years: 2018, 2020
+lastupdated: "2020-07-09"
 
 ---
 
@@ -85,13 +85,13 @@ You can also expand the row for an application to view the service instances to 
 To view all applications deployed across all CFEE instances:
 1. Click the Menu icon ![Account Checking](images/HamburgerMenu.png  "Screen cap that shows the menu icon") > **Cloud Foundry** to open the Cloud Foundry dashboard.  
 2. Click **Enterprise > Applications** in the left navigation pane.
-The table in the view shows the following information: 
+The table in the view shows the following information:
 
 | Element   | Description |
 |-----------|---------------|
 | Name | The name of the application. |
 | Instances | The number of instances of the application. |
-| Environment | The {{site.data.keyword.cfee_full}} environment whre the application is deployed. | 
+| Environment | The {{site.data.keyword.cfee_full}} environment where the application is deployed. |
 | Organization | The organization where the application is deployed. |
 | Space | The organization in the CFEE instance where the alias resides. |
 | Memory | The amount of memory used by the application. |
@@ -101,7 +101,7 @@ The table in the view shows the following information:
 Optionally, you can Start, Restart, Stop or Delete an application by accessing the menu in the far right of the row representing the application.
 You can click any of the applications, environments, organizations or spaces to navigate to the corresponding page in the CFEE user interface.
 
-In this view you  have the option to group applications by organization, space, and/or application name.  This capability allows you to coalesce into a single entity applications that may have different names and/or be deployed into different CFEE organizations or spaces, but that correspond to the same logical application entity.  For example, you may have different applications that represent components of a broader project or that are deployed across different delivery stages (e.g., development, testing, production) but that you would like to view grouped as part of the same logical entity. 
+In this view you  have the option to group applications by organization, space, and/or application name.  This capability allows you to coalesce into a single entity applications that may have different names and/or be deployed into different CFEE organizations or spaces, but that correspond to the same logical application entity.  For example, you may have different applications that represent components of a broader project or that are deployed across different delivery stages (e.g., development, testing, production) but that you would like to view grouped as part of the same logical entity.
 
 To group applications go to the **Group** dropdown located at the page's top-right.
 When you group applications, each resulting group is represented by a single entry in the table. You can expand that row to show the applications under that group.
@@ -153,6 +153,7 @@ The following example shows a manifest file for a Node.js application that uses 
 
 ```
 ---
+applications:
 - name: myNodejsapp
   memory: 256M
   disk_quota: 512M
