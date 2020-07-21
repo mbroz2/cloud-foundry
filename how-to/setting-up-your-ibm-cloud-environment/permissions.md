@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018, 2020
 
-lastupdated: "2019-06-28"
+lastupdated: "2020-07-09"
 
 ---
 
@@ -43,10 +43,10 @@ Following is a summary of the minimum [IAM](https://cloud.ibm.com/iam#/users) an
 |Manage shared domains|<ul><li>Viewer in the CFEE instance Resource Group. </li><li>Editor role in the CFEE instance. </li></ul>|  |
 |View shared domains|<ul><li>Viewer in the CFEE instance Resource Group. </li><li>Viewer role in the CFEE instance. </li></ul>|  |
 |Manage private domains|<ul> <li>Viewer in the CFEE instance Resource Group. </li><li>Viewer role in the CFEE instance. </li></ul>| <ul><li>Manager role in organization owning the domain. </li></ul>|
-|View Private domains|<ul> <li>Viewer in the CFEE instance Resource Group </li><li>Viewer role in the CFEE instance. </li></ul>|<ul><li>Viewer role in organization owning the domain. </li></ul>|
-|Create/Delete an IBM Cloud service instance in a CFEE space| <ul><li>Viewer role in Resource Group where CFEE is to be created.</li> <li>Viewer role in the CFEE instance.</li> <li>Editor in the Resource Group where the service instance is to be created, or to the IAM-managed service to be instantiated.</li> </ul>| <ul><li>Developer role in the CFEE space from where the service instance is created (and where will be added/aliased automatically).</li></ul> |
+|View Private domains|<ul> <li>Viewer role in the CFEE instance Resource Group </li><li>Viewer role in the CFEE instance. </li></ul>|<ul><li>Viewer role in organization owning the domain. </li></ul>|
+|Create/Delete an IBM Cloud service instance in a CFEE space| <ul><li>Viewer role in Resource Group where CFEE is to be created.</li> <li>Viewer role in the CFEE instance.</li> <li>Editor privileges granted by the Resource Group where the service instance is to be created, or to the IAM-managed service to be instantiated.</li> </ul>| <ul><li>Developer role in the CFEE space from where the service instance is created (and where will be added/aliased automatically).</li></ul> |
 |Add/Remove an IBM Cloud service instance to/from a CFEE space (i.e., create/delete an alias to an IBM Cloud service in a CFEE space)| <ul><li>Viewer role in the CFEE instance Resource Group.</li><li>Viewer role in the CFEE instance. </li><li>Operator platform role and reader service role to the service instance to be added. </li></ul>|<ul><li>Developer role in the CFEE space where the service instance is to be added (aliased).</li></ul> |
-|Bind or unbind an IBM Cloud service instace in a CFEE space|<ul> <li>Editor in the Resource Group of the service instance to bind or unbind.</li><li>Viewer role in the CFEE instance. </li><li>Operator platform role and writer service role to the service instance to bind.</li></ul> | <ul><li>Developer role in the CFEE space where the service instance to bind.</li></ul> |
+|Bind or unbind an IBM Cloud service instance in a CFEE space|<ul> <li>Editor privileges granted by the Resource Group of the service instance to bind or unbind.</li><li>Viewer role in the CFEE instance. </li><li>Operator platform role and writer service role to the service instance to bind.</li></ul> | <ul><li>Developer role in the CFEE space where the service instance to bind.</li></ul> |
 |Issue `cf` cli commands|<ul> <li>Viewer role in the CFEE instance Resource Group. </li><li>Viewer role in the CFEE instance.</li></ul> | <ul><li>Cloud Foundry roles in the organization/space required to perform the command.</li></ul> |
 {: caption="Table 1. Permissions required to perform tasks in a CFEE" caption-side="top"}
 

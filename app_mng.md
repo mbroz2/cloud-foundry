@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2020
-lastupdated: "2020-07-20"
+  years: 2015, 2019
+lastupdated: "2019-09-20"
 subcollection: cloud-foundry
 
 ---
@@ -164,7 +164,7 @@ The *noproxy* utility only applies to applications that run in a Diego cell.
 #### hc 
 {: #hc}
 
-The (*hc*) Health Center agent enables your application to be monitored by the Health Center client.  
+The (*hc*) Health Center agent enables your application to be monitored by the Health Center client.  For Node.js, the *hc* agent is only available with the Node.js runtime versions included with the IBM SDK for Node.js buildpack.  See [Latest updates to the sdk-for-nodejs buildpack](/docs/cloud-foundry?topic=cloud-foundry-latest_updates) for the current set of runtimes.
 
 When you have the Health Center agent enabled, you can analyze the performance of your Liberty applications by using the IBM Monitoring and Diagnostic Tools. For more information see [How to analyze the performance of Liberty Java in {{site.data.keyword.Bluemix_notm}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/bluemix/2015/07/03/how-to-analyze-performance-in-bluemix/){:new_window}.
 
