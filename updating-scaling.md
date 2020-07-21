@@ -26,31 +26,27 @@ The CFEE version updates take place on the control plane containing the CFEE com
 ## Updating the version
 {: #update}
 
+A CFEE update sequentially updates the CFEE cluster's control plane and cell nodes.
+
 Users need the following permissions to be able to update a CFEE instance to a new version:
    * _Editor_ role or higher to a CFEE instance.
    * _Operator_ role or higher to the Kubernetes cluster into which the CFEE is provisioned.
 
-Updating the CFEE version of your CFEE instance is a two-step process. First, update the control plane that hosts the CFEE componentry. Then, update the cells that host your applications.
-
-The following rules and constraints apply when updating a CFEE to a new version:
-* The control plane must be updated first. Once the control plane has been updated the cells can be updated.
-* Application cells can be updated only to the version of the control plane.  That is, the control plane can be at a higher CFEE version level than application cells, but not viceversa.
-
 To update the CFEE version of your CFEE instance:
-1. Go to the [{{site.data.keyword.Bluemix_notm}} dashboard](https://cloud.ibm.com/dashboard/apps/) and open the {{site.data.keyword.cfee_full_notm}} that you want to update.
-2. Go to the **Updates and Scaling** page under the _Operations_ entry in the left navigation pane.
-3. (optional) In the _Control Plane_ table you can expand the row to see the worker nodes in the control plane.
-4. Click **Update**.
-5. In the Update _Control Plane_ dialog, select one of the available CFEE versions and click **Update**.The update takes about 45 minutes.  The version description details the versions of the components included in the selected CFEE version package, along with a link to the _What's New_ document describing the content delivered in that version.
-6. The _Nodes Status_ column shows the progress of the update. Once the update is complete, the _Version_ column reflects the new CFEE version.
-7. Once the update of the control plane cells is complete, find the _Cells_ table and click **Update**.
-8. In the _Update Control Plane_ dialog select the CFEE version and click *Update*. There is only available version for the cells to update because cells can be updated only to the version of the control plane. A single update action updates all cells.
-9. Cells are updated sequentially. The _Nodes Status_ column indicates the progress of the update for each cell. As cells are updated, their new version is reflected in the _Version_ column.
+1. Go to the [{{site.data.keyword.cfee_full_notm}} Environments list](https://cloud.ibm.com/cloudfoundry/environments) and open the {{site.data.keyword.cfee_full_notm}} that you want to update.
+2. Go to the **Updates and Scaling** tag under the _Operations_ page in the left navigation pane.
+3. If an update is available, an **Update** button will appear in the _Control Plane_ table. Click **Update**.
+4. In the Update dialog, select one of the available CFEE versions and click **Update**. The version description details the versions of the components included in the selected CFEE version package, along with a link to the _What's New_ document describing the content delivered in that version.
+5. The _Nodes Status_ column shows the progress of the update. Once the update is complete, the _Version_ column reflects the new CFEE version.
+
+### Updating the CFEE cluster's Kubernetes version
+
+New Kubernetes versions are validated to ensure compatibility with a particular version of CFEE. Once a Kuberenetes version has been validated, it is included as part of a CFEE version. During an update to a CFEE version with a newer version of Kubernetes, the cluster's master version, control plane nodes, and cell nodes are each sequentially updated to the new Kubernetes version. The sequential update process for CFEE components begins once all nodes have been updated to the specified Kubernetes version.
 
 ## Disruptions during version update
 {: #update-disruption}
 
-Updating the Cloud Foundry control plane is not disruptive.  However, updating Cloud Foundry cells to a new CFEE version may disrupt the operation of the CFEE environment.  The update is performed one cell at a time, so that application instances running in a cell are brought back up once the update is completed while the other cells are down during their update. Nevertheless, some applications and services running in the CFEE may become unavailable under some circumstances. For example, if the CFEE has two Cloud Foundry cells to full capacity, an application with only one instance will be down during the version update because the application instance cannot be moved to another cell while the cell is being updated and, consequently, the application will be unavailable.  Even with three cells and three instances per application, there can be transient disruption in application availability during a version update.
+Updating the Cloud Foundry control plane is not disruptive.  However, updating Cloud Foundry cells to a new CFEE version may disrupt the operation of the CFEE environment.  The update is performed one cell at a time, so that application instances running in a cell are brought back up once the update is completed while the other cells are down during their update. Nevertheless, some applications and services running in the CFEE may become unavailable under some circumstances. For example, if the CFEE has two Cloud Foundry cells running applications at full capacity, an application with only one instance will be down during the version update because the application instance cannot be moved to another cell while the cell is being updated and, consequently, the application will be unavailable.  Even with three cells and three instances per application, there can be transient disruption in application availability during a version update.
 
 During the version update there may be a discrepancy in the Memory and CPU metrics reported in the Cell Nodes gauges shown in the CFEE _Overview_ page (which are generated by the Kubernetes cluster) and the same metrics shown in the _Nodes_ dashboard in Grafana (which are generated a the operating system level).
 
