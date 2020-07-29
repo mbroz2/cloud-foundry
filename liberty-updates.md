@@ -18,7 +18,7 @@ lastupdated: "2020-07-29"
 * The default Liberty runtime GA version is the [20.0.0.6](https://openliberty.io/blog/2020/06/05/graphql-open-liberty-20006.html) release.
 * The alternate Liberty runtime GA version was changed to [20.0.0.8]() release.
 * The IBM JRE version was updated to [8 SR6 FP11](https://developer.ibm.com/javasdk/2020/06/26/ibm-sdk-java-technology-edition-version-8-service-refresh-6-fix-pack-11/)
-* The AdoptOpenJDK OpenJ9 alternate JRE was updated to version 11.0.8_10_openj9-0.21.0
+* The AdoptOpenJDK OpenJ9 alternate JRE was updated to version 11.0.8_10_openj9-0.21.0.
 
 ### July 7, 2020: Updated Liberty buildpack v3.46-20200626-1029
 * The default Liberty runtime GA version is the [20.0.0.6](https://openliberty.io/blog/2020/06/05/graphql-open-liberty-20006.html) release.
