@@ -201,10 +201,10 @@ First, examine the logs for any obvious errors that might cause the Liberty appl
 
 * When you deploy the application by using the `ibmcloud cf push` command, specify a longer application start timeout by using the `-t` option. For example:
 
-        ```
-	ibmcloud cf push myApp -t 180
-        ```
-	{: codeblock}
+    ```
+    ibmcloud cf push myApp -t 180
+    ```
+    {: codeblock}
 
 * The health check timeout can also be specified in the manifest.yml file. For example:
 
@@ -230,9 +230,9 @@ If your application takes a long time to initialize, you might have to re-factor
 
 1. Deploy your application with "--no-route" option. This will disable the port health check. For example:
 
-        ```
-	ibmcloud cf push myApp –no-route
-        ```
+    ``` 
+    ibmcloud cf push myApp –no-route
+    ```
 	{: codeblock}
 
 2. Once the application is initialized, map a route to the application. For example:
